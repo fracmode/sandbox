@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Waveformer</title>
+	<script type="text/javascript" src="js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/lodash/3.10.1/lodash.min.js"></script>
+	<script type="text/javascript" src="js/d3/3.5.10/d3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<style type="text/css">
+		body {
+			font: 10px sans-serif;
+		}
+
+		#d3-window {
+			width: 1024px;
+			height: 600px;
+			border: 1px solid #CCC;
+		}
+
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+			display: none;
+		}
+
+		.line {
+			fill: none;
+			stroke: steelblue;
+			stroke-width: 1.5px;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Waveformer</h1>
+	<!-- <button js-update>Update</button> -->
+	<div id="d3-window"></div>
+</body>
+</html>
