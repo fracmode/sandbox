@@ -1,6 +1,9 @@
 # sandbox
 My Sandbox
 
-ios/swiftWithoutStoryboard
+- ios/swiftWithoutStoryboard
+  - Storyboard 無しで xib でビュー作成の雛形
 
-Excel で 波形表示
+- excel/wavegraph.xlsx
+  - Excel で 波形表示
+
