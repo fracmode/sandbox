@@ -4,6 +4,8 @@ My Sandbox | 砂場
 
 https://en.wikipedia.org/wiki/Sandbox
 
+リポジトリにするまでもないスクリプト、スニペット、サンプルなど
+
 - ios/swiftWithoutStoryboard
   - Storyboard 無しで xib でビュー作成の雛形
 
