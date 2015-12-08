@@ -12,3 +12,6 @@ https://en.wikipedia.org/wiki/Sandbox
 - excel/wavegraph.xlsx
   - Excel で 波形表示
 
+- js/waveformer
+  - 波形表示
+
