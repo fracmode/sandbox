@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Waveformer</title>
+	<script type="text/javascript" src="js/jquery/2.1.4/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/lodash/3.10.1/lodash.min.js"></script>
+	<script type="text/javascript" src="js/d3/3.5.10/d3.min.js"></script>
+	<script type="text/javascript" src="js/d3-sample.js"></script>
+	<style type="text/css">
+		#d3-window {
+			width: 640px;
+			height: 480px;
+			border: 1px solid #CCC;
+		}
+	</style>
+</head>
+<body>
+	<h1>Waveformer</h1>
+	<table>
+		<tr>
+			<th>graph-width</th>
+			<td>
+				<input type="text" name="graph-width" value="640" />
+			</td>
+		</tr>
+		<tr>
+			<th>graph-height</th>
+			<td>
+				<input type="text" name="graph-height" value="480" />
+			</td>
+		</tr>
+		<tr>
+			<th>number-of-layers</th>
+			<td>
+				<input type="text" name="number-of-layers" value="20" />
+			</td>
+		</tr>
+		<tr>
+			<th>number-of-samples</th>
+			<td>
+				<input type="text" name="number-of-samples" value="200" />
+			</td>
+		</tr>
+	</table>
+	<button js-update>Update</button>
+	<div id="d3-window"></div>
+</body>
+</html>
