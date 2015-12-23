@@ -6,6 +6,9 @@ https://en.wikipedia.org/wiki/Sandbox
 
 リポジトリにするまでもないスクリプト、スニペット、サンプルなど
 
+Markdown 記法:
+https://help.github.com/articles/github-flavored-markdown/
+
 - ios/swiftWithoutStoryboard
   - Storyboard 無しで xib でビュー作成の雛形
 
