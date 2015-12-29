@@ -20,3 +20,6 @@ https://help.github.com/articles/github-flavored-markdown/
 
 - php/jsontoarray.php
   - JSON <--> PHP Array 変換
+
+- go/helloworld
+  - Helloworld for go-lang
