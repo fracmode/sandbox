@@ -3,8 +3,13 @@
 	"name": "拡張名",
 	"description": "拡張の説明文",
 	"version": "1.0",
+	"icons": {
+		"256": "images/icon/icon_256.png"
+	},
 	"browser_action": {
-		"default_icon": "icon.png"
+		"default_icon": {
+			"256": "images/icon/icon_256.png"
+		}
 	},
 	"background": {
 		"scripts": ["js/jquery.js","js/background.js"]
