@@ -12,6 +12,8 @@
 		}
 	},
 	"background": {
-		"scripts": ["js/jquery.js","js/background.js"]
+		"scripts": [
+			"js/jquery/2.2.0/jquery-2.2.0.min.js"
+		]
 	}
 }
