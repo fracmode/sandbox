@@ -13,7 +13,21 @@
 	},
 	"background": {
 		"scripts": [
-			"js/jquery/2.2.0/jquery-2.2.0.min.js"
+		"js/jquery/2.2.0/jquery-2.2.0.min.js"
 		]
-	}
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"css": [
+				"css/main.css"
+			],
+			"js": [
+				"js/main.js"
+			]
+		}
+	]
 }
