@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "拡張名",
+	"name": "拡張名てすと",
 	"description": "拡張の説明文",
 	"version": "1.0",
 	"icons": {
@@ -10,6 +10,7 @@
 		"default_icon": {
 			"256": "images/icon/icon_256.png"
 		},
+		"default_title": "拡張名てすと",
 		"default_popup": "html/popup.html"
 	},
 	"background": {
