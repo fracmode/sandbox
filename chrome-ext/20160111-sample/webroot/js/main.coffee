@@ -58,8 +58,8 @@ run_checker = (check_all_a_tags)->
     options.check_all = check_all_a_tags
     set_options(options).then ->
         executeScripts([
-            {file: "js/jquery-2.1.1.min.js"}
-            {file: "js/content_scripts/inspect_element.js"}
+            {file: "webroot/js/jquery/2.2.0/jquery-2.2.0.min.js"}
+            {file: "webroot/js/content_scripts/inspect_element.js"}
         ])
 
     # close popup
