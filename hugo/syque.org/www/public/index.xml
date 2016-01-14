@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>syque</title>
+    <link>http://syque.org/</link>
+    <description>Recent content on syque</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <atom:link href="http://syque.org/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
