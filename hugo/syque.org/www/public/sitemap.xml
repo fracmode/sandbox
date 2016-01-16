@@ -3,7 +3,13 @@
   
   <url>
     <loc>http://syque.org/</loc>
+    <lastmod>2016-01-16T13:40:06+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://syque.org/hello/</loc>
+    <lastmod>2016-01-16T13:40:06+09:00</lastmod>
   </url>
   
 </urlset>
