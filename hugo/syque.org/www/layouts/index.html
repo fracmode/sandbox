@@ -6,6 +6,13 @@
 </head>
 <body>
 	<h1>{{ .Title }}</h1>
-	<p>Hello Hugo World!</p>
+
+	<h2>What's New</h2>
+	<ul style="list-style:none;">
+	{{ range first 15 .Site.Pages }}
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a> (<time pubdate="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>){{ if .Draft }} #Draft{{ end }}</li>
+	{{ end }}
+	</ul>
+
 </body>
 <html>
