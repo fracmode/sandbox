@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>syque</title>
-    <link>http://syque.org/memo/</link>
-    <description>Recent content on syque</description>
+    <title>Sandboxes on syque</title>
+    <link>http://syque.org/memo/sandbox/</link>
+    <description>Recent content in Sandboxes on syque</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <lastBuildDate>Sat, 16 Jan 2016 13:40:06 +0900</lastBuildDate>
-    <atom:link href="http://syque.org/memo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://syque.org/memo/sandbox/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hello</title>
