@@ -1,3 +1,6 @@
 baseurl = "http://syque.org/memo/"
 languageCode = "jp"
 title = "syque"
+
+[params]
+author = "syque"
