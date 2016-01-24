@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
+{{ with .Site.LanguageCode }}
+<html lang="{{ . }}">
+{{ else }}
+<html>
+{{ end }}
 <head>
-<meta charset="utf-8">
-<title>{{ .Title }} - {{ .Section }} | {{ .Site.Title }}</title>
+	<meta charset="utf-8">
+	<title>{{ .Title }} - {{ .Section }} | {{ .Site.Title }}</title>
 </head>
 <body>
-<h1>{{ .Title }} - {{ .Section }}</h1>
-<nav>
-    {{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
-    {{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
-</nav>
+	<h1>{{ .Title }} - {{ .Section }}</h1>
+	<nav>
+	    {{ with .Params.categories }}
+	    <div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>
+	    {{ end }}
+	    {{ with .Params.tags }}
+	    <div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>
+	    {{ end }}
+	</nav>
 
-<div>{{ .Content }}</div>
+	<div>{{ .Content }}</div>
 </body>
 <html>
