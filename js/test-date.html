@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script language="javascript">
+	(function() {
+		document.addEventListener("DOMContentLoaded", function(event) {
+			mainProc();
+		});
+		var mainProc = function() {
+			var mainElement = document.getElementsByClassName('main')[0];
+
+			var out = '';
+
+			var date = new Date();
+			var date2 = new Date(date.getTime() - (86400 * 1000));
+
+			out += 'date : ' + date + "\n";
+			out += 'date2: ' + date2 + "\n";
+
+			mainElement.innerText = out;
+		};
+	})();
+</script>
+	<div class="wrapper">
+		<div class="container">
+			<div class="main">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, enim quod aspernatur fuga obcaecati sit eveniet ratione, voluptates quidem at accusamus. Eos pariatur dolor tempore! Tempora in mollitia id magnam!
+			</div>
+		</div>
+	</div>
+</body>
+</html>
