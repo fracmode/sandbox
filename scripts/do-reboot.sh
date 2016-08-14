@@ -5,14 +5,23 @@ tmpFile="/tmp/temp"`date +%Y%m%d%H%M%S`
 
 prefix="[${timestamp}] FileSystem Check:"
 
-touch ${tmpFile}
+function check_file_system() {
+    touch ${tmpFile}
 
-if [ ! -f ${tmpFile} ]; then
-    echo "${prefix} FileSystem is Read-Only. Rebooting..."
+    if [ ! -f ${tmpFile} ]; then
+        error_check_file_system
+    fi
+
+    if [ -f ${tmpFile} ]; then
+        echo "${prefix} FileSystem is Stable."
+        rm -f ${tmpFile}
+    fi
+  
+} 
+
+function error_check_file_system() {
+    echo "${prefix} FileSystem may be Read-Only. Rebooting..."
     reboot
-fi
+} 
 
-if [ -f ${tmpFile} ]; then
-    echo "${prefix} FileSystem is Stable."
-    rm -f ${tmpFile}
-fi
+check_file_system || error_check_file_system
