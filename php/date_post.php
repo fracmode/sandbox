@@ -56,8 +56,8 @@ class Main
     private static $_feed_post_path = 'post/post/create/';
 
     private static $_auth_data = [
-        'username' => 'r1068478@mvrht.net',
-        'password' => 'r1068478'
+        'username' => '********@********',
+        'password' => '********'
     ];
 
     public function run($argv)
